@@ -116,7 +116,7 @@ function addButtons(buttonList) {
 }
 
 addButtons([
-    { text: "Iniciar", command: "clock" },
+    { text: "Start", command: "clock" },
     // { text: "Instruções", command: "help" },
     { text: "Tentar senha", command: "senha" },
     // { text: "Start 2", command: "cat root/about.txt" },
