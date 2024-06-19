@@ -73,7 +73,7 @@ terminal.addCommand("clock", async function(args) {
     }
     let date = new Date()
     globalvariableCronometroInicio = date.getHours() + ":" + (date.getMinutes() < 10 ? '0' : '') + date.getMinutes()
-    terminal.printLine("Horário de ínicio: " + date.getHours() + ":" + (date.getMinutes() < 10 ? '0' : '') + date.getMinutes())
+    terminal.printLine("Registro do horário de ínicio: " + date.getHours() + ":" + (date.getMinutes() < 10 ? '0' : '') + date.getMinutes() + " - Boa sorte!!", Color.COLOR_1)
     while (true) {
         update()
         await sleep(displayMillis ? 40 : 1000)

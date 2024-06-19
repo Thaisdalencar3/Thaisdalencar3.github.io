@@ -10,19 +10,20 @@ terminal.addCommand("helloworld", async function() {
         () => terminal.print(" |  '--'  ||  |____.----)   |    /  _____  \\  |  |     |  | |  `--'  | "),
         () => terminal.print(" |_______/ |_______|_______/    /__/     \\__\\ |__|     |__|  \\______/  "),
         () => terminal.print("                                                                       "),
-        () => terminal.print("                         .______   .______                             "),
-        () => terminal.print("                         |   _  \\  |   _  \\                            "),
-        () => terminal.print("                         |  |_)  | |  |_)  |                           "),
-        () => terminal.print("                         |   _  <  |   ___/                            "),
-        () => terminal.print("                         |  |_)  | |  |                                "),
-        () => terminal.print("                         |______/  | _|                                "),
+        () => terminal.print("       __   __    __  .__   __.  __  .__   __.   ______                "),
+        () => terminal.print("      |  | |  |  |  | |  \\ |  | |  | |  \\ |  |  /  __  \\               "),
+        () => terminal.print("      |  | |  |  |  | |   \\|  | |  | |   \\|  | |  |  |  |              "),
+        () => terminal.print(".--.  |  | |  |  |  | |  . `  | |  | |  . `  | |  |  |  |              "),
+        () => terminal.print("|  `--'  | |  `--'  | |  |\\   | |  | |  |\\   | |  `--'  |              "),
+        () => terminal.print(" \\______/   \\______/  |__| \\__| |__| |__| \\__|  \\______/               "),
         () => terminal.print(" '---------------------------------------------------------------------' "),
+        () => terminal.print("                                                                         "),
         () => terminal.print("Bem vind#s ao desafio!                                                  "),
         // () => terminal.print("You may enter commands to navigate over 200 unique features.    "),
         () => {
-            terminal.print("Inicio sua jornada usando o comando ")
+            terminal.print("Inicio seu desafio usando o comando ", Color.COLOR_1)
             terminal.printCommand("start", "clock", undefined, false)
-            terminal.print(". Se divirta!                  ")
+            terminal.print(". Se divirta!                  ", Color.COLOR_1)
         },
         () => terminal.print("                                                                                 "),
         // () => {

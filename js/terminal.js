@@ -1912,11 +1912,13 @@ class Terminal {
         let rawArgs = text.slice(commandText.length)
 
         console.log(commandText)
+        console.log(args[0])
+        console.log(commandText + ' ' + args[0])
 
-        if (commandText == "breakeven") {
+        if (commandText + ' ' + args[0] == "GO HOME") {
             let date = new Date()
             let globalvariableCronometroFim = date.getHours() + ":" + (date.getMinutes() < 10 ? '0' : '') + date.getMinutes()
-            terminal.print("Horário de conclusão: " + globalvariableCronometroFim)
+            terminal.print("Horário de conclusão: " + globalvariableCronometroFim, Color.COLOR_1)
 
             terminal.print("\n")
             terminal.print("\n 🎉🎉🎉🎉🎉 🎉🎉🎉🎉🎉 🎉🎉🎉🎉🎉 🎉🎉🎉🎉🎉 🎉🎉🎉🎉🎉 🎉🎉🎉🎉🎉 🎉🎉🎉🎉🎉")

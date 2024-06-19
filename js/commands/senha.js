@@ -1,5 +1,5 @@
 terminal.addCommand("senha", function() {
-    terminal.printLine("Terminal habilitado para você tentar a senha. Boa sorte!!", Color.COLOR_1)
+    terminal.printLine("Terminal habilitado para você tentar a senha. \n\nObs: use letras maiúsculas, CAPSLOCK \n\nBoa sorte!!", Color.COLOR_1)
     //terminal.printLink(args.show)
     // await terminal.modules.load("mathenv", terminal)
     // while (true) {
